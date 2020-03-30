@@ -25,6 +25,35 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RunManager">
+    <configuration name="exe1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exe1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.exe1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -38,7 +67,7 @@
       <workItem from="1585288264557" duration="3063000" />
       <workItem from="1585295998896" duration="932000" />
       <workItem from="1585487478372" duration="2000" />
-      <workItem from="1585551845295" duration="675000" />
+      <workItem from="1585551845295" duration="3591000" />
     </task>
     <servers />
   </component>
@@ -46,6 +75,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585554333724">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585554333724" />
+    <state width="668" height="226" key="GridCell.Tab.0.bottom" timestamp="1585554903784">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="668" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585554903784" />
+    <state width="668" height="226" key="GridCell.Tab.0.center" timestamp="1585554903782">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="668" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585554903782" />
+    <state width="668" height="226" key="GridCell.Tab.0.left" timestamp="1585554903782">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="668" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585554903782" />
+    <state width="668" height="226" key="GridCell.Tab.0.right" timestamp="1585554903783">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="668" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585554903783" />
     <state x="443" y="105" key="SettingsEditor" timestamp="1585551881491">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -54,5 +103,8 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="745" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585487478553" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/exercise$exe1.coverage" NAME="exe1 Coverage Results" MODIFIED="1585554903774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
