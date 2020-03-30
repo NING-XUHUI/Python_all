@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfc1c0a1-3c49-47a3-86bb-9b82c5c299d0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zi2IAdx6ljKRMCh6K9PhnD6sK9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.validation">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="google-ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="first_step_with_tf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="google-ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_step_with_tf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="validation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="google-ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/validation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.validation" />
+        <item itemvalue="Python.first_step_with_tf" />
+        <item itemvalue="Python.first_step_with_tf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfc1c0a1-3c49-47a3-86bb-9b82c5c299d0" name="Default Changelist" comment="" />
+      <created>1585307511119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585307511119</updated>
+      <workItem from="1585307512430" duration="208000" />
+      <workItem from="1585308004827" duration="4671000" />
+      <workItem from="1585314765411" duration="40000" />
+      <workItem from="1585487485908" duration="27000" />
+      <workItem from="1585487528981" duration="80000" />
+      <workItem from="1585549575829" duration="2248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="115" key="#Inspections" timestamp="1585309012118">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="640" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1585309012118" />
+    <state x="729" y="212" key="FileChooserDialogImpl" timestamp="1585308043635">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="729" y="212" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1585308043635" />
+    <state width="763" height="284" key="GridCell.Tab.0.bottom" timestamp="1585309972169">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="763" height="284" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585309972169" />
+    <state width="763" height="284" key="GridCell.Tab.0.center" timestamp="1585309972168">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="763" height="284" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585309972168" />
+    <state width="763" height="284" key="GridCell.Tab.0.left" timestamp="1585309972167">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="763" height="284" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585309972167" />
+    <state width="763" height="284" key="GridCell.Tab.0.right" timestamp="1585309972169">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="763" height="284" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585309972169" />
+    <state width="763" height="284" key="GridCell.Tab.1.bottom" timestamp="1585309972171">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="763" height="284" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585309972171" />
+    <state width="763" height="284" key="GridCell.Tab.1.center" timestamp="1585309972170">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="763" height="284" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585309972170" />
+    <state width="763" height="284" key="GridCell.Tab.1.left" timestamp="1585309972170">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="763" height="284" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585309972170" />
+    <state width="763" height="284" key="GridCell.Tab.1.right" timestamp="1585309972171">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="763" height="284" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585309972171" />
+    <state x="244" y="81" key="SettingsEditor" timestamp="1585308121146">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="244" y="81" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585308121146" />
+    <state x="471" y="162" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1585550994140">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="471" y="162" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1440.900@0.0.1440.900" timestamp="1585550994140" />
+    <state x="735" y="100" width="605" height="700" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1585309491236">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="735" y="100" width="605" height="700" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1585309491236" />
+    <state x="0" y="0" width="720" height="900" key="com.intellij.ide.util.TipDialog" timestamp="1585549579400">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" width="720" height="900" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585549579400" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/google_ml$first_step_with_tf.coverage" NAME="first_step_with_tf Coverage Results" MODIFIED="1585309951584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
