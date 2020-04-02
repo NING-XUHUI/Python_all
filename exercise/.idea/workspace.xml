@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a9bb096-e7dc-46c4-b908-5ab868f26001" name="Default Changelist" comment="" />
+    <list default="true" id="5a9bb096-e7dc-46c4-b908-5ab868f26001" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/k近邻.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/skl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/top_submissions.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/分类模型评估.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/朴素贝叶斯.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本特征抽取.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datingTestSet2.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe1.py" beforeDir="false" afterPath="$PROJECT_DIR$/exe1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../google-ml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../google-ml/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="exercise" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,19 +30,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZhPGYEZXiyjexFeITyGDyRuyWw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
-    <configuration name="exe1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.k近邻">
+    <configuration name="文本特征抽取" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -39,7 +63,161 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exe1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文本特征抽取.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="决策树" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2/决策树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/决策树/决策树.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="朴素贝叶斯" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/朴素贝叶斯.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="朴素贝叶斯" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/朴素贝叶斯.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="朴素贝叶斯" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/朴素贝叶斯.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="k近邻" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/k近邻.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="skl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/skl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sklearn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/sklearn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -50,7 +228,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.exe1" />
+        <item itemvalue="Python.skl" />
+        <item itemvalue="Python.k近邻" />
+        <item itemvalue="Python.sklearn" />
+        <item itemvalue="Python.文本特征抽取" />
       </list>
     </recent_temporary>
   </component>
@@ -67,44 +248,97 @@
       <workItem from="1585288264557" duration="3063000" />
       <workItem from="1585295998896" duration="932000" />
       <workItem from="1585487478372" duration="2000" />
-      <workItem from="1585551845295" duration="3591000" />
+      <workItem from="1585551845295" duration="5058000" />
+      <workItem from="1585562536351" duration="9339000" />
+      <workItem from="1585624790103" duration="6951000" />
+      <workItem from="1585635851804" duration="1587000" />
+      <workItem from="1585638467449" duration="2200000" />
+      <workItem from="1585643973487" duration="588000" />
+      <workItem from="1585644579037" duration="2713000" />
+      <workItem from="1585647332841" duration="51000" />
+      <workItem from="1585654393769" duration="4319000" />
+      <workItem from="1585660573012" duration="1029000" />
+      <workItem from="1585731612847" duration="351000" />
+      <workItem from="1585735309225" duration="4251000" />
+      <workItem from="1585748643255" duration="316000" />
+      <workItem from="1585827311517" duration="248000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585554333724">
+    <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585631522578">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585554333724" />
-    <state width="668" height="226" key="GridCell.Tab.0.bottom" timestamp="1585554903784">
+    <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585631522578" />
+    <state x="830" y="100" width="510" height="700" key="DiffContextDialog" timestamp="1585568886474">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="668" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585554903784" />
-    <state width="668" height="226" key="GridCell.Tab.0.center" timestamp="1585554903782">
+    <state x="830" y="100" width="510" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1585568886474" />
+    <state x="531" y="294" key="FileChooserDialogImpl" timestamp="1585574135686">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="668" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585554903782" />
-    <state width="668" height="226" key="GridCell.Tab.0.left" timestamp="1585554903782">
+    <state x="531" y="294" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1585574135686" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1585827559519">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="668" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585554903782" />
-    <state width="668" height="226" key="GridCell.Tab.0.right" timestamp="1585554903783">
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585827559519" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1585827559519">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="668" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585554903783" />
-    <state x="443" y="105" key="SettingsEditor" timestamp="1585551881491">
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585827559519" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1585827559518">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="443" y="105" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585551881491" />
-    <state x="745" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1585487478553">
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585827559518" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1585827559519">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="745" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585487478553" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585827559519" />
+    <state width="668" height="284" key="GridCell.Tab.1.bottom" timestamp="1585624602956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="668" height="284" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585624602956" />
+    <state width="668" height="284" key="GridCell.Tab.1.center" timestamp="1585624602956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="668" height="284" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585624602956" />
+    <state width="668" height="284" key="GridCell.Tab.1.left" timestamp="1585624602956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="668" height="284" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585624602956" />
+    <state width="668" height="284" key="GridCell.Tab.1.right" timestamp="1585624602956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="668" height="284" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585624602956" />
+    <state x="390" y="120" key="SettingsEditor" timestamp="1585644564864">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="390" y="120" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585644564864" />
+    <state x="933" y="364" key="VCS.ChangelistChooser" timestamp="1585623643595">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="933" y="364" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1585623643595" />
+    <state x="745" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1585827311771">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="745" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585827311771" />
+    <state x="867" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585570087729">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="867" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1585570087729" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/exercise$exe1.coverage" NAME="exe1 Coverage Results" MODIFIED="1585554903774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/exercise$k.coverage" NAME="k近邻 Coverage Results" MODIFIED="1585738824396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/exercise$exe1.coverage" NAME="exe1 Coverage Results" MODIFIED="1585579217210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/exercise$.coverage" NAME="决策树 Coverage Results" MODIFIED="1585827555289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2/决策树" />
+    <SUITE FILE_PATH="coverage/exercise$exe02.coverage" NAME="exe02 Coverage Results" MODIFIED="1585570766886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/exercise$sklearn.coverage" NAME="sklearn Coverage Results" MODIFIED="1585627609830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/exercise$skl.coverage" NAME="skl Coverage Results" MODIFIED="1585739082874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
   </component>
 </project>
