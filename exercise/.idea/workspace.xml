@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a9bb096-e7dc-46c4-b908-5ab868f26001" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day2/决策树/titanic/随机树林.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day2/决策树/决策树.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/决策树/决策树.py" afterDir="false" />
     </list>
@@ -39,8 +40,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.k近邻">
-    <configuration name="文本特征抽取" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.随机树林">
+    <configuration name="随机树林" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,12 +49,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2/决策树/titanic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文本特征抽取.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/决策树/titanic/随机树林.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="决策树" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2/决策树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/决策树/决策树.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,10 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.随机树林" />
+        <item itemvalue="Python.决策树" />
         <item itemvalue="Python.skl" />
         <item itemvalue="Python.k近邻" />
         <item itemvalue="Python.sklearn" />
-        <item itemvalue="Python.文本特征抽取" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +329,7 @@
       <workItem from="1585835105063" duration="179000" />
       <workItem from="1585835287857" duration="10000" />
       <workItem from="1585835322530" duration="12000" />
-      <workItem from="1585836348333" duration="503000" />
+      <workItem from="1585836348333" duration="3351000" />
     </task>
     <task id="LOCAL-00001" summary="py">
       <created>1585829017875</created>
@@ -321,11 +345,29 @@
       <option name="project" value="LOCAL" />
       <updated>1585834190567</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="py">
+      <created>1585836889850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585836889850</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -337,10 +379,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585631522578" />
-    <state x="66" y="0" key="CommitChangelistDialog2" timestamp="1585834190294">
+    <state x="66" y="0" key="CommitChangelistDialog2" timestamp="1585836889639">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="66" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585834190294" />
+    <state x="66" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585836889639" />
     <state x="830" y="100" width="510" height="700" key="DiffContextDialog" timestamp="1585568886474">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -349,22 +391,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="531" y="294" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1585574135686" />
-    <state width="678" height="237" key="GridCell.Tab.0.bottom" timestamp="1585834361744">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1585846146721">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="678" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585834361744" />
-    <state width="678" height="237" key="GridCell.Tab.0.center" timestamp="1585834361743">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585846146721" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1585846146720">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="678" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585834361743" />
-    <state width="678" height="237" key="GridCell.Tab.0.left" timestamp="1585834361743">
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585846146720" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1585846146720">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="678" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585834361743" />
-    <state width="678" height="237" key="GridCell.Tab.0.right" timestamp="1585834361743">
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585846146720" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1585846146721">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="678" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585834361743" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585846146721" />
     <state width="668" height="284" key="GridCell.Tab.1.bottom" timestamp="1585624602956">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -405,7 +447,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/exercise$k.coverage" NAME="k近邻 Coverage Results" MODIFIED="1585738824396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
     <SUITE FILE_PATH="coverage/exercise$exe1.coverage" NAME="exe1 Coverage Results" MODIFIED="1585579217210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/exercise$.coverage" NAME="决策树 Coverage Results" MODIFIED="1585834176527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2/决策树" />
+    <SUITE FILE_PATH="coverage/exercise$.coverage" NAME="随机树林 Coverage Results" MODIFIED="1585846146714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2/决策树/titanic" />
     <SUITE FILE_PATH="coverage/exercise$exe02.coverage" NAME="exe02 Coverage Results" MODIFIED="1585570766886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/exercise$sklearn.coverage" NAME="sklearn Coverage Results" MODIFIED="1585627609830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
     <SUITE FILE_PATH="coverage/exercise$skl.coverage" NAME="skl Coverage Results" MODIFIED="1585739082874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />

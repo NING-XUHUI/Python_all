@@ -1,6 +1,7 @@
 #!/usr/bin/python 
 # -*- coding:utf-8 -*-
 import pandas as pd
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.tree import DecisionTreeClassifier, export_graphviz
@@ -33,25 +34,25 @@ def decision():
     """
     # 获取数据
     titan = pd.read_csv("./titanic/train.csv")
-    y_test = pd.read_csv("./titanic/gender_submission.csv")
-    x_test = pd.read_csv("./titanic/test.csv")
+    pre = pd.read_csv("./titanic/test.csv")
     # 处理数据
-
-    x_test = x_test[['Pclass', 'Age', 'Sex']]
-    x_train = titan[['Pclass', 'Age', 'Sex']]
-    y_train = titan['Survived']
+    x = titan[['Pclass', 'Age', 'Sex']]
+    pre = pre[['Pclass', 'Age', 'Sex']]
+    y = titan['Survived']
 
     # 缺失值处理
-    x_train['Age'].fillna(x_train['Age'].mean(), inplace=True)
-    x_test['Age'].fillna(x_test['Age'].mean(), inplace=True)
+    x['Age'].fillna(x['Age'].mean(), inplace=True)
+    pre['Age'].fillna(pre['Age'].mean(),inplace=True)
 
-    print(x_train)
     # 分割数据
-    # 已分割
+
+    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25)
+
 
     # 进行处理  特征工程  类别处理：one-hot编码
     dict = DictVectorizer(sparse=False)
     x_train = dict.fit_transform(x_train.to_dict(orient="records"))
+    pre = dict.transform(pre.to_dict(orient="records"))
     print(dict.get_feature_names())
     x_test = dict.transform(x_test.to_dict(orient="records"))
 
@@ -61,12 +62,14 @@ def decision():
     dec = DecisionTreeClassifier()
 
     dec.fit(x_train, y_train)
-    prediction = dec.predict(x_test)
+
     # print(prediction)
 
     # 预测准确率
-    # print(x_train,y_train)
-    print(dec.score(x_train, y_train))
+
+    prediction = dec.predict(pre)
+    print(dec.score(x_test, y_test))
+    print(prediction)
 
     # export_graphviz(dec, out_file="./tree.dot", feature_names=['Age', 'Pclass', 'Sex=female', 'Sex=male'])
     return None
