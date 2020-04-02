@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a9bb096-e7dc-46c4-b908-5ab868f26001" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day2/决策树/titanic/随机树林.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/线性回归.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2/决策树/决策树.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/决策树/决策树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/决策树/titanic/随机树林.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/决策树/titanic/随机树林.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +286,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.随机树林" />
-        <item itemvalue="Python.决策树" />
         <item itemvalue="Python.skl" />
         <item itemvalue="Python.k近邻" />
         <item itemvalue="Python.sklearn" />
@@ -329,7 +328,7 @@
       <workItem from="1585835105063" duration="179000" />
       <workItem from="1585835287857" duration="10000" />
       <workItem from="1585835322530" duration="12000" />
-      <workItem from="1585836348333" duration="3351000" />
+      <workItem from="1585836348333" duration="5511000" />
     </task>
     <task id="LOCAL-00001" summary="py">
       <created>1585829017875</created>
@@ -352,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585836889850</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="py">
+      <created>1585846267340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585846267340</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,10 +385,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585631522578" />
-    <state x="66" y="0" key="CommitChangelistDialog2" timestamp="1585836889639">
+    <state x="66" y="0" key="CommitChangelistDialog2" timestamp="1585846267206">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="66" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585836889639" />
+    <state x="66" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585846267206" />
     <state x="830" y="100" width="510" height="700" key="DiffContextDialog" timestamp="1585568886474">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -391,22 +397,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="531" y="294" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1585574135686" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1585846146721">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1585848278053">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585846146721" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1585846146720">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585848278053" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1585848278051">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585846146720" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1585846146720">
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585848278051" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1585848278051">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585846146720" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1585846146721">
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585848278051" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1585848278052">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585846146721" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585848278052" />
     <state width="668" height="284" key="GridCell.Tab.1.bottom" timestamp="1585624602956">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -431,10 +437,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="933" y="364" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1585623643595" />
-    <state x="511" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1585836348563">
+    <state x="511" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1585848358170">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="511" y="244" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585836348563" />
+    <state x="511" y="244" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585848358170" />
     <state x="867" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585834184507">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -447,7 +453,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/exercise$k.coverage" NAME="k近邻 Coverage Results" MODIFIED="1585738824396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
     <SUITE FILE_PATH="coverage/exercise$exe1.coverage" NAME="exe1 Coverage Results" MODIFIED="1585579217210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/exercise$.coverage" NAME="随机树林 Coverage Results" MODIFIED="1585846146714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2/决策树/titanic" />
+    <SUITE FILE_PATH="coverage/exercise$.coverage" NAME="随机树林 Coverage Results" MODIFIED="1585847492681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2/决策树/titanic" />
     <SUITE FILE_PATH="coverage/exercise$exe02.coverage" NAME="exe02 Coverage Results" MODIFIED="1585570766886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/exercise$sklearn.coverage" NAME="sklearn Coverage Results" MODIFIED="1585627609830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
     <SUITE FILE_PATH="coverage/exercise$skl.coverage" NAME="skl Coverage Results" MODIFIED="1585739082874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />

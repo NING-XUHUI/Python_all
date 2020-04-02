@@ -50,6 +50,8 @@ def decision():
     x['Age'].fillna(x['Age'].mean(), inplace=True)
     pre['Age'].fillna(pre['Age'].mean(), inplace=True)
 
+    std = StandardScaler()
+
     # 分割数据
 
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25)
@@ -57,6 +59,7 @@ def decision():
     # 进行处理  特征工程  类别处理：one-hot编码
     dict = DictVectorizer(sparse=False)
     x_train = dict.fit_transform(x_train.to_dict(orient="records"))
+
     pre = dict.transform(pre.to_dict(orient="records"))
     print(dict.get_feature_names())
     x_test = dict.transform(x_test.to_dict(orient="records"))
@@ -80,7 +83,7 @@ def decision():
 
     rf = RandomForestClassifier()
 
-    param = {"n_estimators": [100, 200, 300, 500, 800, 1200], "max_depth": [5, 8, 15, 25, 30]}
+    param = {"n_estimators": [50, 100, 200, 300, 500, 800, 1200], "max_depth": [5, 8, 15, 25, 30]}
     # 网格搜索与交叉验证
 
     gc = GridSearchCV(rf, param_grid=param, cv=2)
@@ -89,8 +92,10 @@ def decision():
 
     print("准确率", gc.score(x_test, y_test))
 
+    predicton = gc.predict(pre)
     print("最好结果：", gc.best_params_)
 
+    print(predicton)
     # export_graphviz(, out_file="./randomtree.dot", feature_names=['Age', 'Pclass', 'Sex=female', 'Sex=male'])
     return None
 
