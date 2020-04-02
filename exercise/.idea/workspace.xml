@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a9bb096-e7dc-46c4-b908-5ab868f26001" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day2/决策树/titanic/gender_submission.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2/决策树/titanic/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2/决策树/titanic/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2/决策树/tree.dot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2/决策树/决策树.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/决策树/决策树.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.决策树">
     <configuration name="文本特征抽取" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -305,6 +300,7 @@
       <workItem from="1585832768383" duration="131000" />
       <workItem from="1585832942383" duration="150000" />
       <workItem from="1585833881998" duration="83000" />
+      <workItem from="1585834009848" duration="350000" />
     </task>
     <task id="LOCAL-00001" summary="py">
       <created>1585829017875</created>
@@ -313,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585829017875</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="py">
+      <created>1585834190567</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585834190567</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,10 +332,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585631522578" />
-    <state x="66" y="0" key="CommitChangelistDialog2" timestamp="1585829017669">
+    <state x="66" y="0" key="CommitChangelistDialog2" timestamp="1585834190294">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="66" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585829017669" />
+    <state x="66" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585834190294" />
     <state x="830" y="100" width="510" height="700" key="DiffContextDialog" timestamp="1585568886474">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -341,22 +344,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="531" y="294" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1585574135686" />
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1585832763887">
+    <state width="678" height="237" key="GridCell.Tab.0.bottom" timestamp="1585834361744">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585832763887" />
-    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1585832763887">
+    <state width="678" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585834361744" />
+    <state width="678" height="237" key="GridCell.Tab.0.center" timestamp="1585834361743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585832763887" />
-    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1585832763887">
+    <state width="678" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585834361743" />
+    <state width="678" height="237" key="GridCell.Tab.0.left" timestamp="1585834361743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585832763887" />
-    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1585832763887">
+    <state width="678" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585834361743" />
+    <state width="678" height="237" key="GridCell.Tab.0.right" timestamp="1585834361743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585832763887" />
+    <state width="678" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585834361743" />
     <state width="668" height="284" key="GridCell.Tab.1.bottom" timestamp="1585624602956">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -373,10 +376,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="668" height="284" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585624602956" />
-    <state x="108" y="77" key="SettingsEditor" timestamp="1585832991978">
+    <state x="108" y="77" key="SettingsEditor" timestamp="1585834337569">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="108" y="77" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585832991978" />
+    <state x="108" y="77" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585834337569" />
     <state x="933" y="364" key="VCS.ChangelistChooser" timestamp="1585623643595">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
