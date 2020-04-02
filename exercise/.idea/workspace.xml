@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5a9bb096-e7dc-46c4-b908-5ab868f26001" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/决策树/决策树.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2/决策树/决策树.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.决策树">
+  <component name="RunManager" selected="Python.k近邻">
     <configuration name="文本特征抽取" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,7 +262,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.决策树" />
         <item itemvalue="Python.skl" />
         <item itemvalue="Python.k近邻" />
         <item itemvalue="Python.sklearn" />
@@ -301,6 +301,11 @@
       <workItem from="1585832942383" duration="150000" />
       <workItem from="1585833881998" duration="83000" />
       <workItem from="1585834009848" duration="350000" />
+      <workItem from="1585834528637" duration="555000" />
+      <workItem from="1585835105063" duration="179000" />
+      <workItem from="1585835287857" duration="10000" />
+      <workItem from="1585835322530" duration="12000" />
+      <workItem from="1585836348333" duration="503000" />
     </task>
     <task id="LOCAL-00001" summary="py">
       <created>1585829017875</created>
@@ -376,18 +381,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="668" height="284" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585624602956" />
-    <state x="108" y="77" key="SettingsEditor" timestamp="1585834337569">
+    <state x="108" y="77" key="SettingsEditor" timestamp="1585835239023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="108" y="77" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585834337569" />
+    <state x="108" y="77" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585835239023" />
     <state x="933" y="364" key="VCS.ChangelistChooser" timestamp="1585623643595">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="933" y="364" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1585623643595" />
-    <state x="511" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1585833881311">
+    <state x="511" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1585836348563">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="511" y="244" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585833881311" />
+    <state x="511" y="244" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585836348563" />
     <state x="867" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585834184507">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
