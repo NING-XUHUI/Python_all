@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a9bb096-e7dc-46c4-b908-5ab868f26001" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/线性回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/线性回归.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day3/过拟合和欠拟合.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/过拟合和欠拟合.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -376,7 +378,7 @@
       <workItem from="1585907910786" duration="1269000" />
       <workItem from="1586164790022" duration="4146000" />
       <workItem from="1586241388760" duration="46000" />
-      <workItem from="1586250045030" duration="4233000" />
+      <workItem from="1586250045030" duration="4806000" />
     </task>
     <task id="LOCAL-00001" summary="py">
       <created>1585829017875</created>
@@ -434,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586258551438</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="py">
+      <created>1586258835745</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586258835745</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,10 +472,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585631522578" />
-    <state x="66" y="0" key="CommitChangelistDialog2" timestamp="1586258551284">
+    <state x="66" y="0" key="CommitChangelistDialog2" timestamp="1586258835596">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="66" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586258551284" />
+    <state x="66" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586258835596" />
     <state x="830" y="100" width="510" height="700" key="DiffContextDialog" timestamp="1585568886474">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -475,22 +484,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="531" y="294" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1585574135686" />
-    <state width="677" height="236" key="GridCell.Tab.0.bottom" timestamp="1586251686368">
+    <state width="678" height="227" key="GridCell.Tab.0.bottom" timestamp="1586259338845">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="677" height="236" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586251686368" />
-    <state width="677" height="236" key="GridCell.Tab.0.center" timestamp="1586251686368">
+    <state width="678" height="227" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586259338845" />
+    <state width="678" height="227" key="GridCell.Tab.0.center" timestamp="1586259338844">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="677" height="236" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586251686368" />
-    <state width="677" height="236" key="GridCell.Tab.0.left" timestamp="1586251686367">
+    <state width="678" height="227" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586259338844" />
+    <state width="678" height="227" key="GridCell.Tab.0.left" timestamp="1586259338844">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="677" height="236" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586251686367" />
-    <state width="677" height="236" key="GridCell.Tab.0.right" timestamp="1586251686368">
+    <state width="678" height="227" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586259338844" />
+    <state width="678" height="227" key="GridCell.Tab.0.right" timestamp="1586259338845">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="677" height="236" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586251686368" />
+    <state width="678" height="227" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586259338845" />
     <state width="668" height="284" key="GridCell.Tab.1.bottom" timestamp="1585624602956">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -515,10 +524,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="933" y="364" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1585623643595" />
-    <state x="640" y="186" key="Vcs.Push.Dialog.v2" timestamp="1586258826653">
+    <state x="640" y="186" key="Vcs.Push.Dialog.v2" timestamp="1586258866600">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="640" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586258826653" />
+    <state x="640" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586258866600" />
     <state x="511" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1586250046587">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -535,7 +544,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/exercise$k.coverage" NAME="k近邻 Coverage Results" MODIFIED="1586250061303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
     <SUITE FILE_PATH="coverage/exercise$exe1.coverage" NAME="exe1 Coverage Results" MODIFIED="1585579217210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/exercise$.coverage" NAME="线性回归 Coverage Results" MODIFIED="1586251653756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/exercise$.coverage" NAME="线性回归 Coverage Results" MODIFIED="1586259338834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
     <SUITE FILE_PATH="coverage/exercise$exe02.coverage" NAME="exe02 Coverage Results" MODIFIED="1585570766886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/exercise$sklearn.coverage" NAME="sklearn Coverage Results" MODIFIED="1585627609830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
     <SUITE FILE_PATH="coverage/exercise$skl.coverage" NAME="skl Coverage Results" MODIFIED="1585739082874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />

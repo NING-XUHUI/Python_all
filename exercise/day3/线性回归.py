@@ -28,7 +28,7 @@
 """
 
 from sklearn.datasets import load_boston
-from sklearn.linear_model import LinearRegression, SGDRegressor
+from sklearn.linear_model import LinearRegression, SGDRegressor, Ridge
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
@@ -71,19 +71,28 @@ def my_linear():
     print(y_predict)
     print(mean_squared_error(std_y.inverse_transform(y_test), y_predict))
     # 梯度下降预测
-    sgd = SGDRegressor()
+    # sgd = SGDRegressor()
+    #
+    # sgd.fit(x_train, y_train)
+    # print(sgd.coef_)
+    #
+    # # 预测测试集
+    # y_predict = std_y.inverse_transform(sgd.predict(x_test))
+    #
+    # print(y_predict)
+    # print(mean_squared_error(std_y.inverse_transform(y_test), y_predict))
+    #
+    # # 回归性能评估 均方误差
 
-    sgd.fit(x_train, y_train)
-    print(sgd.coef_)
+    # 岭回归房价预测
+    rd = Ridge(alpha=1.0) # alpha 也是超参数
+    rd.fit(x_train, y_train)
+    print(rd.coef_)
+    # 预测房价
+    y_rd_predict = std_y.inverse_transform(rd.predict(x_test))
 
-    # 预测测试集
-    y_predict = std_y.inverse_transform(sgd.predict(x_test))
-
-    print(y_predict)
-    print(mean_squared_error(std_y.inverse_transform(y_test), y_predict))
-
-    # 回归性能评估 均方误差
-
+    print(y_rd_predict)
+    print(mean_squared_error(std_y.inverse_transform(y_test), y_rd_predict))
     return None
 
 
