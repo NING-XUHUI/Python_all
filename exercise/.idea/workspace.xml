@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a9bb096-e7dc-46c4-b908-5ab868f26001" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day3/过拟合和欠拟合.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/过拟合和欠拟合.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager" selected="Python.线性回归">
     <configuration name="随机树林" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -377,7 +376,7 @@
       <workItem from="1585907910786" duration="1269000" />
       <workItem from="1586164790022" duration="4146000" />
       <workItem from="1586241388760" duration="46000" />
-      <workItem from="1586250045030" duration="3899000" />
+      <workItem from="1586250045030" duration="4233000" />
     </task>
     <task id="LOCAL-00001" summary="py">
       <created>1585829017875</created>
@@ -421,7 +420,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586252347406</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="py">
+      <created>1586258503114</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586258503114</updated>
+    </task>
+    <task id="LOCAL-00008" summary="py">
+      <created>1586258551438</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586258551438</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,14 +507,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="668" height="284" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585624602956" />
-    <state x="108" y="77" key="SettingsEditor" timestamp="1585835239023">
+    <state x="108" y="77" key="SettingsEditor" timestamp="1586258791746">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="108" y="77" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585835239023" />
+    <state x="108" y="77" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586258791746" />
     <state x="933" y="364" key="VCS.ChangelistChooser" timestamp="1585623643595">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="933" y="364" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1585623643595" />
+    <state x="640" y="186" key="Vcs.Push.Dialog.v2" timestamp="1586258826653">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="640" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586258826653" />
     <state x="511" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1586250046587">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
