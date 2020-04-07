@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfc1c0a1-3c49-47a3-86bb-9b82c5c299d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../exercise/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise/day2/k近邻.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise/day2/skl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise/day2/朴素贝叶斯.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise/exe02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise/文本特征抽取.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/datingTestSet2.numbers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise/exe1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/exe1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +124,7 @@
       <workItem from="1585549575829" duration="2248000" />
       <workItem from="1585624782140" duration="5000" />
       <workItem from="1585658974198" duration="14000" />
+      <workItem from="1585848418521" duration="15000" />
     </task>
     <servers />
   </component>
