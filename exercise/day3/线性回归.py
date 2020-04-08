@@ -32,6 +32,7 @@ from sklearn.linear_model import LinearRegression, SGDRegressor, Ridge
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
+from sklearn.externals import joblib
 
 
 def my_linear():
@@ -57,19 +58,28 @@ def my_linear():
     y_train = std_y.fit_transform(y_train.reshape(-1, 1))
     y_test = std_y.transform(y_test.reshape(-1, 1))
 
+    # 读取模型预测房价结果
+    lr = joblib.load("test.pkl")
+
+    y_pre = std_y.inverse_transform(lr.predict(x_test))
+
+    print(y_pre)
     # estimator预测
 
     # 正规方程求解
-    lr = LinearRegression()
-
-    lr.fit(x_train, y_train)
-    print(lr.coef_)
+    # lr = LinearRegression()
+    #
+    # lr.fit(x_train, y_train)
+    #
+    # print(lr.coef_)
+    # # 保存训练好的模型
+    # joblib.dump(lr, "test.pkl")
 
     # 预测测试集
-    y_predict = std_y.inverse_transform(lr.predict(x_test))
-
-    print(y_predict)
-    print(mean_squared_error(std_y.inverse_transform(y_test), y_predict))
+    # y_predict = std_y.inverse_transform(lr.predict(x_test))
+    #
+    # print(y_predict)
+    # print(mean_squared_error(std_y.inverse_transform(y_test), y_predict))
     # 梯度下降预测
     # sgd = SGDRegressor()
     #
@@ -85,14 +95,14 @@ def my_linear():
     # # 回归性能评估 均方误差
 
     # 岭回归房价预测
-    rd = Ridge(alpha=1.0) # alpha 也是超参数
-    rd.fit(x_train, y_train)
-    print(rd.coef_)
-    # 预测房价
-    y_rd_predict = std_y.inverse_transform(rd.predict(x_test))
-
-    print(y_rd_predict)
-    print(mean_squared_error(std_y.inverse_transform(y_test), y_rd_predict))
+    # rd = Ridge(alpha=1.0) # alpha 也是超参数
+    # rd.fit(x_train, y_train)
+    # print(rd.coef_)
+    # # 预测房价
+    # y_rd_predict = std_y.inverse_transform(rd.predict(x_test))
+    #
+    # print(y_rd_predict)
+    # print(mean_squared_error(std_y.inverse_transform(y_test), y_rd_predict))
     return None
 
 
