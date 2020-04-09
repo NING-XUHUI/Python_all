@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5a9bb096-e7dc-46c4-b908-5ab868f26001" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf/demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +55,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+=======
     <property name="settings.editor.selected.configurable" value="settings.github" />
+>>>>>>> parent of 370e96aa... tf
   </component>
   <component name="RunManager" selected="Python.逻辑回归">
     <configuration name="随机树林" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -61,7 +84,67 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="朴素贝叶斯" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/朴素贝叶斯.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="朴素贝叶斯" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> parent of 370e96aa... tf
+      <module name="exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day3" />
+>>>>>>> parent of 370e96aa... tf
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/朴素贝叶斯.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day3/线性回归.py" />
+>>>>>>> parent of 370e96aa... tf
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="逻辑回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> parent of 370e96aa... tf
       <module name="exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +157,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day3/线性回归.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day3/逻辑回归.py" />
+>>>>>>> parent of 370e96aa... tf
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,29 +236,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="exercise" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day3/线性回归.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+=======
     <configuration name="决策树" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> parent of 370e96aa... tf
       <module name="exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,12 +248,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day3" />
+=======
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2/决策树" />
+>>>>>>> parent of 370e96aa... tf
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day3/线性回归.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/决策树/决策树.py" />
+>>>>>>> parent of 370e96aa... tf
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -400,6 +477,16 @@
       <workItem from="1586241388760" duration="46000" />
       <workItem from="1586250045030" duration="4948000" />
       <workItem from="1586328778857" duration="5285000" />
+<<<<<<< HEAD
+      <workItem from="1586431220981" duration="2106000" />
+      <workItem from="1586433416195" duration="384000" />
+      <workItem from="1586433804410" duration="3000" />
+      <workItem from="1586434354850" duration="836000" />
+      <workItem from="1586435637294" duration="1357000" />
+      <workItem from="1586437058997" duration="251000" />
+      <workItem from="1586437342388" duration="603000" />
+=======
+>>>>>>> parent of 370e96aa... tf
     </task>
     <task id="LOCAL-00001" summary="py">
       <created>1585829017875</created>
@@ -478,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586333657581</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="tf">
+      <created>1586436812200</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586436812200</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,25 +594,52 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="py" />
-    <option name="LAST_COMMIT_MESSAGE" value="py" />
+    <MESSAGE value="tf" />
+    <option name="LAST_COMMIT_MESSAGE" value="tf" />
   </component>
   <component name="WindowStateProjectService">
     <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586329013966">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="754" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1586329013966" />
+<<<<<<< HEAD
+    <state x="768" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586433012616">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="768" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1586433012616" />
+    <state x="66" y="0" key="CommitChangelistDialog2" timestamp="1586436800997">
+=======
     <state x="66" y="0" key="CommitChangelistDialog2" timestamp="1586333657345">
+>>>>>>> parent of 370e96aa... tf
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="66" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586333657345" />
-    <state x="830" y="100" width="510" height="700" key="DiffContextDialog" timestamp="1585568886474">
+    <state x="66" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586436800997" />
+    <state x="830" y="100" width="510" height="700" key="DiffContextDialog" timestamp="1586438628128">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="830" y="100" width="510" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1585568886474" />
+    <state x="830" y="100" width="510" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1586438628128" />
     <state x="531" y="294" key="FileChooserDialogImpl" timestamp="1585574135686">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="531" y="294" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1585574135686" />
+<<<<<<< HEAD
+    <state width="678" height="249" key="GridCell.Tab.0.bottom" timestamp="1586437002959">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="678" height="249" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586437002959" />
+    <state width="678" height="249" key="GridCell.Tab.0.center" timestamp="1586437002958">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="678" height="249" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586437002958" />
+    <state width="678" height="249" key="GridCell.Tab.0.left" timestamp="1586437002958">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="678" height="249" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586437002958" />
+    <state width="678" height="249" key="GridCell.Tab.0.right" timestamp="1586437002959">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="678" height="249" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586437002959" />
+=======
     <state width="678" height="235" key="GridCell.Tab.0.bottom" timestamp="1586357873148">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -535,6 +656,7 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="678" height="235" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586357873147" />
+>>>>>>> parent of 370e96aa... tf
     <state width="668" height="284" key="GridCell.Tab.1.bottom" timestamp="1585624602956">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -551,19 +673,31 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="668" height="284" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585624602956" />
+<<<<<<< HEAD
+    <state x="108" y="77" key="SettingsEditor" timestamp="1586438677593">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="108" y="77" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586438677593" />
+=======
     <state x="108" y="77" key="SettingsEditor" timestamp="1586258791746">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="108" y="77" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586258791746" />
+>>>>>>> parent of 370e96aa... tf
     <state x="933" y="364" key="VCS.ChangelistChooser" timestamp="1585623643595">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="933" y="364" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1585623643595" />
-    <state x="640" y="186" key="Vcs.Push.Dialog.v2" timestamp="1586333672582">
+    <state x="640" y="186" key="Vcs.Push.Dialog.v2" timestamp="1586438680044">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+<<<<<<< HEAD
+    <state x="640" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586438680044" />
+    <state x="720" y="202" width="601" height="381" key="com.intellij.ide.util.TipDialog" timestamp="1586431233560">
+=======
     <state x="640" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586333672582" />
     <state x="720" y="0" width="720" height="900" key="com.intellij.ide.util.TipDialog" timestamp="1586328779990">
+>>>>>>> parent of 370e96aa... tf
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="720" y="0" width="720" height="900" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586328779990" />
