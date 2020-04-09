@@ -34,9 +34,7 @@ b = tf.constant(6.0)
 sum1 = tf.add(a, b)
 print(sum1)
 
-牛逼
+
 
 with tf.Session() as sess:
     print(sess.run(sum1))
-
-啊啊啊
