@@ -96,7 +96,7 @@ def decision():
     print("最好结果：", gc.best_params_)
 
     print(predicton)
-    # export_graphviz(, out_file="./randomtree.dot", feature_names=['Age', 'Pclass', 'Sex=female', 'Sex=male'])
+    export_graphviz(decision_tree=5,out_file="./randomtree.dot", feature_names=['Age', 'Pclass', 'Sex=female', 'Sex=male'])
     return None
 
 

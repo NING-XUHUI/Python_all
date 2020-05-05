@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfc1c0a1-3c49-47a3-86bb-9b82c5c299d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise/day2/决策树/titanic/随机树林.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/day2/决策树/titanic/随机树林.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +24,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Python.validation">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -125,11 +125,15 @@
       <workItem from="1585624782140" duration="5000" />
       <workItem from="1585658974198" duration="14000" />
       <workItem from="1585848418521" duration="15000" />
+      <workItem from="1587351197941" duration="57000" />
+      <workItem from="1587351272872" duration="214000" />
+      <workItem from="1587351507389" duration="217000" />
+      <workItem from="1588139483124" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="115" key="#Inspections" timestamp="1585309012118">
@@ -172,10 +176,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="763" height="284" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585309972171" />
-    <state x="244" y="81" key="SettingsEditor" timestamp="1585308121146">
+    <state x="269" y="191" key="IDE.errors.dialog" timestamp="1587351552587">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="244" y="81" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585308121146" />
+    <state x="269" y="191" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1587351552587" />
+    <state x="0" y="0" width="1440" height="900" key="SettingsEditor" timestamp="1587351487508">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" width="1440" height="900" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587351487508" />
     <state x="471" y="162" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1585550994140">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -188,6 +196,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="0" width="720" height="900" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585624784235" />
+    <state x="308" y="112" key="editAsTableFormatDialogDimension" timestamp="1587351541215">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="112" key="editAsTableFormatDialogDimension/0.0.1440.900@0.0.1440.900" timestamp="1587351541215" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/google_ml$first_step_with_tf.coverage" NAME="first_step_with_tf Coverage Results" MODIFIED="1585309951584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
