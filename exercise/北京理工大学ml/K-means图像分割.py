@@ -11,7 +11,6 @@ import numpy as np
 import PIL.Image as image
 from sklearn.cluster import KMeans
 
-
 def loadData(filePath):
     f = open(filePath, 'rb')
     data = []
