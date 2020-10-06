@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edd46c07-5892-47e6-aad9-63f13c0c3072" name="Default Changelist" comment="" />
+    <list default="true" id="edd46c07-5892-47e6-aad9-63f13c0c3072" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/算法练习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/算法练习.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1iHeaDTRIQKEgCzmPC7wAT80JHA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,21 +31,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/AlgorithmPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.c2">
+  <component name="RunManager" selected="Python.c1">
     <configuration name="列车调度" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="算法练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,6 +92,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="c1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="算法练习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/OOP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/OOP/c1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="c2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="算法练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.c1" />
         <item itemvalue="Python.c2" />
         <item itemvalue="Python.列车调度" />
       </list>
@@ -125,6 +159,7 @@
       <workItem from="1601571177795" duration="116000" />
       <workItem from="1601571310738" duration="18000" />
       <workItem from="1601571351147" duration="917000" />
+      <workItem from="1601958280395" duration="191000" />
     </task>
     <servers />
   </component>
@@ -136,34 +171,40 @@
       <screen x="1440" y="-131" width="1920" height="1080" />
     </state>
     <state x="2373" y="67" key="#Vim_Emulation/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601571391197" />
-    <state width="918" height="271" key="GridCell.Tab.0.bottom" timestamp="1601572269747">
-      <screen x="1440" y="-131" width="1920" height="1080" />
+    <state width="918" height="271" key="GridCell.Tab.0.bottom" timestamp="1601958471551">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="918" height="271" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601572269747" />
-    <state width="918" height="271" key="GridCell.Tab.0.center" timestamp="1601572269746">
-      <screen x="1440" y="-131" width="1920" height="1080" />
+    <state width="918" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601958471551" />
+    <state width="918" height="271" key="GridCell.Tab.0.center" timestamp="1601958471550">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="918" height="271" key="GridCell.Tab.0.center/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601572269746" />
-    <state width="918" height="271" key="GridCell.Tab.0.left" timestamp="1601572269745">
-      <screen x="1440" y="-131" width="1920" height="1080" />
+    <state width="918" height="271" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601958471550" />
+    <state width="918" height="271" key="GridCell.Tab.0.left" timestamp="1601958471549">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="918" height="271" key="GridCell.Tab.0.left/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601572269745" />
-    <state width="918" height="271" key="GridCell.Tab.0.right" timestamp="1601572269746">
-      <screen x="1440" y="-131" width="1920" height="1080" />
+    <state width="918" height="271" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601958471549" />
+    <state width="918" height="271" key="GridCell.Tab.0.right" timestamp="1601958471550">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="918" height="271" key="GridCell.Tab.0.right/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601572269746" />
+    <state width="918" height="271" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601958471550" />
     <state x="2468" y="151" key="IDE.errors.dialog" timestamp="1601570961752">
       <screen x="1440" y="-131" width="1920" height="1080" />
     </state>
     <state x="2468" y="151" key="IDE.errors.dialog/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601570961752" />
-    <state x="1890" y="19" key="SettingsEditor" timestamp="1601571291412">
-      <screen x="1440" y="-131" width="1920" height="1080" />
+    <state x="450" y="150" key="SettingsEditor" timestamp="1601958353239">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1890" y="19" key="SettingsEditor/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601571291412" />
-    <state x="1961" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1601571360439">
-      <screen x="1440" y="-131" width="1920" height="1080" />
+    <state x="450" y="150" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601958353239" />
+    <state x="521" y="398" key="com.intellij.ide.util.TipDialog" timestamp="1601958287392">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1961" y="267" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601571360439" />
+    <state x="521" y="398" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601958287392" />
     <state x="2452" y="-26" width="856" height="870" key="find.popup" timestamp="1601570914255">
       <screen x="1440" y="-131" width="1920" height="1080" />
     </state>
@@ -172,5 +213,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$c2.coverage" NAME="c2 Coverage Results" MODIFIED="1601572256009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/OOP" />
     <SUITE FILE_PATH="coverage/$.coverage" NAME="后缀 Coverage Results" MODIFIED="1601570208062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/AlgorithmPractice" />
+    <SUITE FILE_PATH="coverage/$c1.coverage" NAME="c1 Coverage Results" MODIFIED="1601958431997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/OOP" />
   </component>
 </project>
