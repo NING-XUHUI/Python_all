@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd46c07-5892-47e6-aad9-63f13c0c3072" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgorithmPractice/A-B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgorithmPractice/wang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgorithmPractice/个位数统计.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgorithmPractice/人以群分.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgorithmPractice/删除重复字符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgorithmPractice/猜拳.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/算法练习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/算法练习.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1iHeaDTRIQKEgCzmPC7wAT80JHA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -47,8 +52,8 @@
       <recent name="$PROJECT_DIR$/src/AlgorithmPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.c1">
-    <configuration name="列车调度" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.人以群分">
+    <configuration name="删除重复字符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="算法练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,7 +66,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/AlgorithmPractice/列车调度.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/AlgorithmPractice/删除重复字符.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="个位数统计" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="算法练习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/AlgorithmPractice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/AlgorithmPractice/个位数统计.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="人以群分" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="算法练习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/AlgorithmPractice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/AlgorithmPractice/人以群分.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="A-B" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="算法练习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/AlgorithmPractice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/AlgorithmPractice/A-B.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="c1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="wang" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="算法练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,34 +171,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/OOP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/AlgorithmPractice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/OOP/c1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="c2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="算法练习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/OOP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/OOP/c2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/AlgorithmPractice/wang.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,9 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.c1" />
-        <item itemvalue="Python.c2" />
-        <item itemvalue="Python.列车调度" />
+        <item itemvalue="Python.人以群分" />
+        <item itemvalue="Python.删除重复字符" />
+        <item itemvalue="Python.A-B" />
+        <item itemvalue="Python.wang" />
+        <item itemvalue="Python.个位数统计" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +211,8 @@
       <workItem from="1601571310738" duration="18000" />
       <workItem from="1601571351147" duration="917000" />
       <workItem from="1601958280395" duration="191000" />
+      <workItem from="1602910988070" duration="7000" />
+      <workItem from="1602911032163" duration="2441000" />
     </task>
     <servers />
   </component>
@@ -171,26 +224,42 @@
       <screen x="1440" y="-131" width="1920" height="1080" />
     </state>
     <state x="2373" y="67" key="#Vim_Emulation/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601571391197" />
-    <state width="918" height="271" key="GridCell.Tab.0.bottom" timestamp="1601958471551">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="918" height="347" key="GridCell.Tab.0.bottom" timestamp="1602913658897">
+      <screen x="1440" y="-131" width="1920" height="1080" />
     </state>
-    <state width="918" height="271" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601572269747" />
+    <state width="918" height="347" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1602913658897" />
     <state width="918" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601958471551" />
-    <state width="918" height="271" key="GridCell.Tab.0.center" timestamp="1601958471550">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="918" height="347" key="GridCell.Tab.0.center" timestamp="1602913658897">
+      <screen x="1440" y="-131" width="1920" height="1080" />
     </state>
-    <state width="918" height="271" key="GridCell.Tab.0.center/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601572269746" />
+    <state width="918" height="347" key="GridCell.Tab.0.center/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1602913658897" />
     <state width="918" height="271" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601958471550" />
-    <state width="918" height="271" key="GridCell.Tab.0.left" timestamp="1601958471549">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="918" height="347" key="GridCell.Tab.0.left" timestamp="1602913658897">
+      <screen x="1440" y="-131" width="1920" height="1080" />
     </state>
-    <state width="918" height="271" key="GridCell.Tab.0.left/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601572269745" />
+    <state width="918" height="347" key="GridCell.Tab.0.left/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1602913658897" />
     <state width="918" height="271" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601958471549" />
-    <state width="918" height="271" key="GridCell.Tab.0.right" timestamp="1601958471550">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="918" height="347" key="GridCell.Tab.0.right" timestamp="1602913658897">
+      <screen x="1440" y="-131" width="1920" height="1080" />
     </state>
-    <state width="918" height="271" key="GridCell.Tab.0.right/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601572269746" />
+    <state width="918" height="347" key="GridCell.Tab.0.right/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1602913658897" />
     <state width="918" height="271" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601958471550" />
+    <state width="918" height="347" key="GridCell.Tab.1.bottom" timestamp="1602913658898">
+      <screen x="1440" y="-131" width="1920" height="1080" />
+    </state>
+    <state width="918" height="347" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1602913658898" />
+    <state width="918" height="347" key="GridCell.Tab.1.center" timestamp="1602913658898">
+      <screen x="1440" y="-131" width="1920" height="1080" />
+    </state>
+    <state width="918" height="347" key="GridCell.Tab.1.center/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1602913658898" />
+    <state width="918" height="347" key="GridCell.Tab.1.left" timestamp="1602913658898">
+      <screen x="1440" y="-131" width="1920" height="1080" />
+    </state>
+    <state width="918" height="347" key="GridCell.Tab.1.left/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1602913658898" />
+    <state width="918" height="347" key="GridCell.Tab.1.right" timestamp="1602913658898">
+      <screen x="1440" y="-131" width="1920" height="1080" />
+    </state>
+    <state width="918" height="347" key="GridCell.Tab.1.right/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1602913658898" />
     <state x="2468" y="151" key="IDE.errors.dialog" timestamp="1601570961752">
       <screen x="1440" y="-131" width="1920" height="1080" />
     </state>
@@ -200,19 +269,32 @@
     </state>
     <state x="1890" y="19" key="SettingsEditor/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601571291412" />
     <state x="450" y="150" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601958353239" />
-    <state x="521" y="398" key="com.intellij.ide.util.TipDialog" timestamp="1601958287392">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1961" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1602910987152">
+      <screen x="1440" y="-131" width="1920" height="1080" />
     </state>
-    <state x="1961" y="267" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601571360439" />
+    <state x="1961" y="267" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1602910987152" />
     <state x="521" y="398" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601958287392" />
     <state x="2452" y="-26" width="856" height="870" key="find.popup" timestamp="1601570914255">
       <screen x="1440" y="-131" width="1920" height="1080" />
     </state>
     <state x="2452" y="-26" width="856" height="870" key="find.popup/0.0.1440.900/1440.-131.1920.1080@1440.-131.1920.1080" timestamp="1601570914255" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/AlgorithmPractice/A-B.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$c2.coverage" NAME="c2 Coverage Results" MODIFIED="1601572256009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/OOP" />
-    <SUITE FILE_PATH="coverage/$.coverage" NAME="后缀 Coverage Results" MODIFIED="1601570208062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/AlgorithmPractice" />
-    <SUITE FILE_PATH="coverage/$c1.coverage" NAME="c1 Coverage Results" MODIFIED="1601958431997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/OOP" />
+    <SUITE FILE_PATH="coverage/$A_B.coverage" NAME="A-B Coverage Results" MODIFIED="1602912775977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/AlgorithmPractice" />
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="人以群分 Coverage Results" MODIFIED="1602913417392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/AlgorithmPractice" />
+    <SUITE FILE_PATH="coverage/$wang.coverage" NAME="wang Coverage Results" MODIFIED="1602911827499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/AlgorithmPractice" />
+    <SUITE FILE_PATH="coverage/$c1.coverage" NAME="c1 Coverage Results" MODIFIED="1602911258337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/OOP" />
   </component>
 </project>
