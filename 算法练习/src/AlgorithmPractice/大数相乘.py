@@ -6,5 +6,4 @@ n2 = list(n2)
 l1 = len(n1)
 l2 = len(n2)
 
-while l2 > 0:
 
