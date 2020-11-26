@@ -4,5 +4,7 @@ exercise/.DS_Store
 exercise/.DS_Store
 exercise/day2/.DS_Store
 /venv/
-/data_science/
+/kaggle/data_science/
 .DS_Store
+/kaggle/datasets/
+/kaggle/submission.csv
