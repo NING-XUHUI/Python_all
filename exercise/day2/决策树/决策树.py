@@ -42,12 +42,11 @@ def decision():
 
     # 缺失值处理
     x['Age'].fillna(x['Age'].mean(), inplace=True)
-    pre['Age'].fillna(pre['Age'].mean(),inplace=True)
+    pre['Age'].fillna(pre['Age'].mean(), inplace=True)
 
     # 分割数据
 
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25)
-
 
     # 进行处理  特征工程  类别处理：one-hot编码
     dict = DictVectorizer(sparse=False)
