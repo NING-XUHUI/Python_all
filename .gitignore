@@ -7,6 +7,6 @@ exercise/day2/.DS_Store
 /kaggle/data_science/
 .DS_Store
 /kaggle/datasets/
-/kaggle/submission.csv
-/kaggle/Intermediate_Machine_Learning/01_Introduction/submission.csv
+/kaggle/src/submission.csv
+/kaggle/src/Intermediate_Machine_Learning/01_Introduction/submission.csv
 *.csv
