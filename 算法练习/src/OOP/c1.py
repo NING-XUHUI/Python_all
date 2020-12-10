@@ -6,7 +6,6 @@ class Student():
     # 属性，特征
     # 初始化对象的属性
     sum1 = 0
-
     def __init__(self, name: str, age: int):
         # 构造函数
         self.name = name
