@@ -22,7 +22,6 @@ time.dropna(axis=0, inplace=True)
 EMG_cols = [c for c in columns if "EMG" in c]
 times = len(time)
 
-
 L_wanshen_FMW = pd.read_csv('../FMW/L-wanshen_FMW.csv')
 column_L_wanshen_FMW = L_wanshen_FMW.columns
 
@@ -38,7 +37,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         super(MainWindow, self).__init__()
         self.setupUi(self)
         self.setWindowTitle("肌电信号分析")
-        self.setMinimumSize(500, 500)
+        self.setMinimumSize(0, 0)
 
         self.F = MyFigure(width=30, height=30, dpi=100)
         self.plotData()
@@ -50,9 +49,26 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.gridLayout = QGridLayout(self.groupBox_2)
         self.gridLayout.addWidget(self.F1)
 
+        self.pushButton.clicked.connect(self.button1_Slot)
+
+        self.pushButton_2.clicked.connect(self.button2_Slot)
+
+        self.pushButton_3.clicked.connect(self.button3_Slot)
+
+    def button1_Slot(self):
+        fname, _ = QFileDialog.getOpenFileName(self, 'Open file', './', "Image files (*.csv)")
+        print(fname)
+
+    def button2_Slot(self):
+        with open('tmp.csv', 'r') as f:
+            msg = f.read()
+
+    def button3_Slot(self):
+        pass
+
     def plotData(self):
         for i in range(len(EMG_cols)):
-            axes = self.F.fig.add_subplot(4, 2, i+1)
+            axes = self.F.fig.add_subplot(4, 2, i + 1)
             emg = data[EMG_cols[i]]
             emg = emg.iloc[:times]
             axes.get_xaxis().set_visible(False)
@@ -82,11 +98,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         trans_data5 = scaler.fit_transform(data5)
         trans_data6 = scaler.fit_transform(data6)
         # plt.figure(figsize=(30, 8))
-        self.F1.axes.plot(L_wanshen_FMW[column_L_wanshen_FMW[0]][1024:1536], trans_data1[1024:1536], label='1', color='blue')
+        self.F1.axes.plot(L_wanshen_FMW[column_L_wanshen_FMW[0]][1024:1536], trans_data1[1024:1536], label='1',
+                          color='blue')
         self.F1.axes.plot(L_wanshen_FMW[column_L_wanshen_FMW[20]][1024:1536], trans_data2[1024:1536], label='2')
         self.F1.axes.plot(L_wanshen_FMW[column_L_wanshen_FMW[40]][1024:1536], trans_data3[1024:1536], label='3')
         self.F1.axes.plot(L_wanshen_FMW[column_L_wanshen_FMW[60]][1024:1536], trans_data4[1024:1536], label='4')
-        self.F1.axes.plot(L_wanshen_FMW[column_L_wanshen_FMW[80]][1024:1536], trans_data5[1024:1536], label='5', color='black')
+        self.F1.axes.plot(L_wanshen_FMW[column_L_wanshen_FMW[80]][1024:1536], trans_data5[1024:1536], label='5',
+                          color='black')
         self.F1.axes.plot(L_wanshen_FMW[column_L_wanshen_FMW[100]][1024:1536], trans_data6[1024:1536], label='6')
         self.F1.axes.legend()
 
