@@ -12,7 +12,6 @@
 """
 
 
-
 def process_bound(bound):
     """
         处理每个人的今天可以开会时间段
@@ -39,13 +38,29 @@ def find_spare_time(cal):
     """
     res = []
     for i in range(len(cal) - 1):
-        if cal[i][1] != cal[i+1][0]:
-            res.append([cal[i][1], cal[i+1][0]])
+        if cal[i][1] != cal[i + 1][0]:
+            res.append([cal[i][1], cal[i + 1][0]])
     return res
+
 
 def time_compare(time1, time2):
     if time1 == time2:
         return False
+    tmp1 = time1.split(':')
+    tmp2 = time2.split(':')
+    if tmp1[0] > tmp2[0]:
+        return True
+    elif tmp1[0] < tmp2[0]:
+        return False
+    else:
+        if tmp1[1] > tmp2[1]:
+            return True
+        else:
+            return False
+
+def time_compare2(time1, time2):
+    if time1 == time2:
+        return True
     tmp1 = time1.split(':')
     tmp2 = time2.split(':')
     if tmp1[0] > tmp2[0]:
@@ -76,12 +91,11 @@ def compute_time(time1, time2):
     """
     tmp1 = time1.split(':')
     tmp2 = time2.split(':')
-    
+
     if tmp1[0] == tmp2[0]:
         return int(tmp2[1]) - int(tmp1[1])
     else:
         return (60 - int(tmp1[1])) + int(tmp2[1]) + (int(tmp2[0]) - 1 - int(tmp1[0])) * 60
-
 
 
 def check_time(spare, minTime):
@@ -96,23 +110,32 @@ def get_res(spare1, spare2):
     res = []
     for item1 in spare1:
         for item2 in spare2:
-            if time_compare(item2[1], item1[1]):
-                if time_compare(item1[0], item2[0]):
+            if time_compare2(item2[1], item1[1]):
+                if time_compare2(item1[0], item2[0]):
                     res.append(item1)
                 else:
-                    if compute_time(item2[0], item1[1]) > 30:
+                    if compute_time(item2[0], item1[1]) >= minTime:
                         res.append([item2[0], item1[1]])
+            if time_compare2(item2[0], item1[0]):
+                continue
+            if time_compare2(item1[1], item2[1]):
+                if time_compare2(item2[0], item1[0]):
+                    res.append(item2)
+                else:
+                    if compute_time(item1[0], item2[1]) >= minTime:
+                        res.append([item1[0], item2[1]])
+            if time_compare2(item1[0], item2[0]):
+                continue
     return res
 
 
 if __name__ == "__main__":
-
     cal1 = input()
     bound1 = input()
     cal2 = input()
     bound2 = input()
     minTime = int(input())
-    
+
     cal1 = process_cal(cal1)
     cal2 = process_cal(cal2)
     bound1 = process_bound(bound1)
@@ -128,6 +151,6 @@ if __name__ == "__main__":
     print("=====================")
     print(spare1)
     print(spare2)
-    
+
     res = get_res(spare1, spare2)
     print(res)
