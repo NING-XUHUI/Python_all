@@ -9,6 +9,7 @@ def process_words(words):
     return words
 
 
+
 def judge(n_a, word, number):
     word = list(word)
     tmp = ""
