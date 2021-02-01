@@ -1,13 +1,11 @@
 # -*-encoding=utf-8-*-
 
-import cv2
 
 def process_words(words):
     words = words[1:-1]
     words = words.split(',')
     words = list(map(lambda x: x[1:-1], words))
     return words
-
 
 
 def judge(n_a, word, number):
