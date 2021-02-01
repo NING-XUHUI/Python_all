@@ -149,8 +149,6 @@ if __name__ == "__main__":
     spare1 = check_time(spare1, minTime)
     spare2 = check_time(spare2, minTime)
     print("=====================")
-    print(spare1)
-    print(spare2)
 
     res = get_res(spare1, spare2)
     print(res)
