@@ -52,7 +52,7 @@ def hough(image):
         return ndimage.rotate(img, rotate_angle)
 
 
-img = cv.imread("houghTest5.png")
+img = cv.imread("TEST2.jpg")
 gray = gray(img)
 blurred = blur(gray)
 binary = threshold(blurred)
