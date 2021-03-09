@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/算法练习/src/OOP" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kaggle/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plot/pyqt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OCR" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/kaggle/datasets" />
       <excludeFolder url="file://$MODULE_DIR$/kaggle/src/learntools" />
       <excludeFolder url="file://$MODULE_DIR$/plot/ChJH" />

@@ -103,7 +103,7 @@ def getVProjection(image):
     return w_
 
 
-img = cv.imread("houghTest5.png")
+img = cv.imread("a.png")
 # img = cv.imread("houghTest5.png")
 gray = gray(img)
 blurred = blur(gray)
@@ -148,10 +148,10 @@ for i in range(len(H_start)):
             Wend = 0
 
 for m in range(len(Position)):
-    cv.rectangle(rotated_image, (Position[m][0], Position[m][1]), (Position[m][2], Position[m][3]), (0, 229, 238), 1)
+    cv.rectangle(rotated_image, (Position[m][0], Position[m][1]), (Position[m][2], Position[m][3]), (255, 0, 0), 1)
 cv.imshow('rotated_image', rotated_image)
 
-# cv.imshow("img", img)
+cv.imshow("img", img)
 # cv.imshow("gray", gray)
 # cv.imshow("blurred", blurred)
 # cv.imshow("binary", binary)
