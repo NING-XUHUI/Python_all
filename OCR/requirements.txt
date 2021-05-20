@@ -1,7 +1,0 @@
-numpy
-opencv_python
-onnxruntime
-Shapely
-pyclipper
-Pillow
-
