@@ -12,3 +12,7 @@ exercise/day2/.DS_Store
 *.csv
 /kaggle/src/learntools/
 算法练习/src/AlgorithmPractice/octave-workspace
+*.jpg
+*.jpeg
+*.png
+

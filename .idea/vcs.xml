@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/text-detection-ctpn" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/毕业设计/all/cptn-crnn" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/毕业设计/all/text-detection-ctpn" vcs="Git" />
   </component>
 </project>

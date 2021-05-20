@@ -7,6 +7,7 @@ import numpy as np
 import math
 import random
 from scipy import misc, ndimage
+import matplotlib.pyplot as plt
 
 
 # 灰度图
@@ -57,9 +58,22 @@ gray = gray(img)
 blurred = blur(gray)
 binary = threshold(blurred)
 rotated = hough(binary)
-cv.imshow("img", img)
-cv.imshow("gray", gray)
-cv.imshow("blurred", blurred)
-cv.imshow("binary", binary)
-cv.imshow("hough", rotated)
-cv.waitKey(0)
+img = cv.cvtColor(img, cv.COLOR_BGR2RGB)
+rotated = cv.cvtColor(rotated, cv.COLOR_BGR2RGB)
+plt.subplot(1,2,1)
+plt.imshow(img)
+plt.xticks([])
+plt.yticks([])
+plt.title("Original Image")
+plt.subplot(1,2,2)
+plt.imshow(rotated)
+plt.xticks([])
+plt.yticks([])
+plt.title("Rotated Image")
+plt.show()
+# cv.imshow("img", img)
+# cv.imshow("gray", gray)
+# cv.imshow("blurred", blurred)
+# cv.imshow("binary", binary)
+# cv.imshow("hough", rotated)
+# cv.waitKey(0)
